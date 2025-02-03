@@ -120,7 +120,6 @@ textColor = "#262730"
 #### **3. Available Customization Options**
 - **Colors:** Change `primaryColor`, `backgroundColor`, and `textColor`.
 - **Sidebar:** Toggle `showSidebarNavigation`.
-- **Server Settings:** Change `port` or set `headless = false` to run with a GUI.
 
 #### **4. Apply Changes**
 Restart the application for changes to take effect:
