@@ -63,17 +63,17 @@ pip install -r requirements.txt
 ## Usage
 
 ### 1. Prepare Your XML Files
-Ensure that your TEI XML files are located in the folder `./done_en` relative to the project’s root. If your XML files are stored elsewhere, update the `xml_folder` path in the code accordingly.
+Ensure that your TEI XML files are located in the folder `./xmls` relative to the project’s root. If your XML files are stored elsewhere, update the `xml_folder` path in the code accordingly.
 
 ### 2. Run the Application
 
 Launch the **Streamlit** app with the following command:
 
 ```bash
-streamlit run your_app_filename.py
+streamlit run app.py
 ```
 
-Replace `your_app_filename.py` with the name of the Python file containing the app code.
+Replace `app.py` with the name of the Python file containing the app code.
 
 ### 3. Interact with the App
 
@@ -88,12 +88,12 @@ An example structure for the project might look like:
 ```python
 digitalsee-tei-lens/
 │
-├── done_en/                   # Folder containing TEI XML files
+├── xmls/                     # Folder containing TEI XML files
 │   ├── file1.xml
 │   ├── file2.xml
 │   └── ...
 │
-├── your_app_filename.py       # Main Streamlit application file
+├── app.py                     # Main Streamlit application file
 └── README.md                  # This file
 ```
 
@@ -126,13 +126,13 @@ textColor = "#262730"
 Restart the application for changes to take effect:
 
 ```python
-streamlit run your_app_filename.py
+streamlit run app.py
 ```
 ### Changing XML Folder Path:
 If your TEI XML files are in a different directory, modify the `xml_folder` variable in the code:
     
 ```python
-xml_folder = Path("./done_en")    
+xml_folder = Path("./xmls")    
 ```
 
 ## License
