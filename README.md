@@ -37,8 +37,8 @@ Before running the application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/digitalsee-tei-lens.git
-cd digitalsee-tei-lens
+git clone https://github.com/Bestroi150/digitalsee-tei-navigator.git
+cd digitalsee-tei-navigator
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -86,7 +86,7 @@ Replace `app.py` with the name of the Python file containing the app code.
 An example structure for the project might look like:
 
 ```python
-digitalsee-tei-lens/
+digitalsee-tei-navigator/
 │
 ├── xmls/                     # Folder containing TEI XML files
 │   ├── file1.xml
