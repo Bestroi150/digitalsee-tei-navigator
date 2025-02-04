@@ -1,6 +1,6 @@
 # DigitalSEE: TEI Navigator
 
-**DigitalSEE: TEI Navigator** is an interactive web application built with [Streamlit](https://streamlit.io/) that allows you to view, search, and analyze TEI (Text Encoding Initiative) XML files with ease. With its intuitive interface, you can filter XML documents by author, place, or keyword, view detailed metadata (including TEI headers, commentary sections, and editions), and download matched XML files for further analysis.
+**DigitalSEE: TEI Navigator** is an interactive web application built with [Streamlit](https://streamlit.io/) that allows you to view, search, and analyze TEI (Text Encoding Initiative) XML files with ease. With its intuitive interface, you can filter XML documents by author, place, or keyword, view detailed metadata (including TEI headers, commentary sections, and editions), and download matched XML files for further analysis. The application is available on a **[Hugging Face Space](https://huggingface.co/spaces/bestroi/DigitalSEE)**
 
 ## Table of Contents
 
